@@ -1,0 +1,34 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#generated-image {
+  width: 30vh;
+  height: 30vh;
+  display: block;
+  border: 1px solid black;
+  margin: 30vh auto 10%;
+}
+
+button {
+  width: 250px;
+  display: block;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #67B7DC;
+  border-color: #67B7DC;
+  color: #FFF;
+  font-size: 15px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#example-images {
+  width: 80vh;
+  height: 80vh;
+  margin-top: 5%;
+}
